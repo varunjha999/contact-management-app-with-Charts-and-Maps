@@ -85,12 +85,12 @@ const Dashboard = () => {
 
   return (
     <div className="  w-full pt-20 px-4 pb-8" >
-      <h1 className="text-4xl font-bold mb-4 text-pink-600">Corona Cases Chart</h1>
+      <h1 className="text-4xl font-bold mb-4 text-gray-600">Corona Cases Chart</h1>
       <div className="border-2 border-red-100 w-11/12  m-auto 10 auto 10" >
 
         {
           chartData.datasets ?
-            <Line data={chartData} /> : <h1 className="text-pink-600 mb-4 font-bold text-2xl">Loading...</h1>
+            <Line data={chartData} /> : <h1 className="text-red-600 mb-4 font-bold text-2xl">Loading...</h1>
         }
 
 
@@ -99,7 +99,7 @@ const Dashboard = () => {
       </div>
 
 
-      <h1 className="text-4xl font-bold mb-4 mt-4 text-blue-500">Corona Cases World Map</h1>
+      <h1 className="text-4xl font-bold mb-4 mt-4 text-gray-500">Corona Cases World Map</h1>
       <div
         className="border-2 border-blue-500 w-11/12  m-auto 5 auto 5"
 

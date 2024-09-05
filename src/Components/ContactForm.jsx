@@ -71,7 +71,7 @@ function ContactForm() {
                 <input
                     className="w-full border border-gray-400 p-2 rounded-md"
                     id="last-name"
-                    type="number"
+                    type="text"
                     name="mob"
                     min='10'
                     max='10'
